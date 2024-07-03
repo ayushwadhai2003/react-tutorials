@@ -1,0 +1,42 @@
+.LeftSidebar{
+width: 230px;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin: 10px;
+border-right: 2px  solid lightgray;
+}
+
+.LeftSidebarTop>img {
+    width: 100px;
+    margin: 40px 0 30px 20px;
+}
+
+.alloptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.oneOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border-radius: 7px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.oneOption:hover{
+    background-color: rgb(246, 243, 243);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.oneOption>h1 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+}
