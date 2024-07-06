@@ -1,27 +1,12 @@
 import React from 'react'
 import styles from '../../Styles/LeftSidebar.module.css'
-
-import { IoMdHome } from "react-icons/io";
-import { IoSearchOutline } from "react-icons/io5";
-import { FaRegCompass } from "react-icons/fa6";
-import { RiMessengerLine } from "react-icons/ri";
-import { FaRegHeart } from "react-icons/fa";
-import { LuPlusSquare } from "react-icons/lu";
+import { alloptions } from '../../constants/allposts';
 import { FaThreads } from "react-icons/fa6";
 import { IoIosMenu } from "react-icons/io";
+// import { alloptions } from '../../constants/allposts';
 
 
 function LeftSidebar() {
-
-    const alloptions = [
-        { icons: IoMdHome, title: "Home" },
-        { icons: IoSearchOutline, title: "Search" },
-        { icons: FaRegCompass, title: "Explore" },
-        { icons: RiMessengerLine, title: "Reels" },
-        { icons: RiMessengerLine, title: "Messages" },
-        { icons: FaRegHeart, title: "Notifications" },
-        { icons: LuPlusSquare, title: "Create" },
-    ]
 
     return (
         <div className={styles.LeftSidebar}>

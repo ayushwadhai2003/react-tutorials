@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../Styles/Feed.module.css'
+import AllPosts from './AllPosts'
 function Feed() {
     return (
         <div className={styles.feed}>
@@ -29,8 +30,11 @@ function Feed() {
                     alt=""
                 />
             </div>
+            <AllPosts/>
         </div>
     )
 }
-
 export default Feed
+
+
+
